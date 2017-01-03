@@ -10,8 +10,7 @@
 <!--<script type="text/javascript" charset="utf-8" src="phonegap.js"></script>-->
 <script type="text/javascript" charset="utf-8">
     function onBodyLoad() {
-        //document.addEventListener("deviceready", onDeviceReady, false);
-        onDeviceReady();
+        document.addEventListener("deviceready", onDeviceReady, false);
     }
     
     function onDeviceReady() {
@@ -19,8 +18,7 @@
         var element = document.getElementById('appInfo');
         //replace it with specific information about the device
         //running the application
-        element.innerHTML = "bla bla";
-        //'PhoneGap (version ' + device.phonegap + ')<br>' + device.platform + ' '  device.name + ' (version ' +device.version + ').';
+        element.innerHTML = 'PhoneGap (version ' + device.phonegap + ')<br>' + device.platform + ' '  device.name + ' (version ' +device.version + ').';
     }
 </script>
 
