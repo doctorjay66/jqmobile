@@ -14,4 +14,5 @@
     <author href="http://coenraets.org" email="ciccio@gmail.com">
         Ciccio
     </author>
+    <plugin name="cordova-plugin-device" source="npm" spec="~1.1.1"/>
 </widget>
